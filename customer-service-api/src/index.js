@@ -1,0 +1,1 @@
+const startup = require('./startup');
