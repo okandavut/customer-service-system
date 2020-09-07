@@ -1,9 +1,8 @@
 import styles from '../styles/Home.module.css'
+import Customer from '../pages/customer'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      Selam
-    </div>
+    <Customer />
   )
 }
