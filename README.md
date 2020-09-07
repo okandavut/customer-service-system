@@ -1,33 +1,28 @@
-# Customer Service System
+### Customer Service System
 
-## Customer Service System UI
+#### Customer Service System UI
 
-## Functionalities:
-
-- Will be added
-
-## Technologies & Libraries:
+##### Functionalities:
 
 - Will be added
 
-## Authors :
+##### Technologies & Libraries:
 
-- Okan DAVUT
-
+- Will be added
 
 ---------------------------
 
 
-## Customer Service System Api
+### Customer Service System Api
 
-## Functionalities:
-
-- Will be added
-
-## Technologies & Libraries:
+##### Functionalities:
 
 - Will be added
 
-## Authors :
+##### Technologies & Libraries:
+
+- Will be added
+
+##### Authors :
 
 - Okan DAVUT
