@@ -1,11 +1,13 @@
-import Layout from '../../components/Layout'
+function Service(props) {
+return <div>Service {props.value}</div>;
+}
 
-function Service() {
-    return (
-        <Layout>
-            <div>Service</div>
-        </Layout>
-    )
+export const getStaticProps = async () => {
+    return {
+        props:{
+            value: 1
+        }
+    }
 }
 
 export default Service;

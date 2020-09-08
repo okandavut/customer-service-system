@@ -1,11 +1,5 @@
-import Layout from '../../components/Layout'
-
 function Customer() {
-    return (
-        <Layout>
-            <div>CUSTOMER</div>
-        </Layout>
-    )
+  return <div>CUSTOMER</div>;
 }
 
 export default Customer;
