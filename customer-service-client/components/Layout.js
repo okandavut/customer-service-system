@@ -19,13 +19,13 @@ export default function Layout(props) {
             </nav>
             <div id="main">{props.children}</div>
             <footer>
-                Footer
+                Copyright - Okan DAVUT.
             </footer>
             <style jsx>{`
           footer {
             padding: 5rem 1rem;
             text-align: center;
-            font-size: 2rem;
+            font-size: 1.5rem;
           }
           footer img {
             display: inline-block;
