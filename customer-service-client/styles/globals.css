@@ -20,7 +20,7 @@ table {
   border-collapse: collapse;
   margin: 0;
   padding: 0;
-  width: 70%;
+  width: 80%;
   margin:0 auto;
   table-layout: fixed;
 }
@@ -46,4 +46,7 @@ table th {
   font-size: 0.85em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+.title{
+  margin: 70px 0px 50px 0px ;
 }
