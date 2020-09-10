@@ -48,5 +48,8 @@ table th {
   text-transform: uppercase;
 }
 .title{
-  margin: 70px 0px 50px 0px ;
+  margin: 50px 0px 20px 0px ;
+}
+.container{
+  width:75% !important;
 }
