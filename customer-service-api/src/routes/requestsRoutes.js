@@ -13,8 +13,8 @@ requestsRouter.put(
   requestsController.updateCustomerRequest
 );
 
-requestsRouter.get(
-  "/getCustomerRequestsByPhoneNumber",
+requestsRouter.post(
+  "/getCustomerRequestsByPhoneNumber", 
   requestsController.getCustomerRequestsByPhoneNumber
 );
 
