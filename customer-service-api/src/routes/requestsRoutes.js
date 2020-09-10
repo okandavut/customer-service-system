@@ -13,4 +13,9 @@ requestsRouter.put(
   requestsController.updateCustomerRequest
 );
 
+requestsRouter.get(
+  "/getCustomerRequestsByPhoneNumber",
+  requestsController.getCustomerRequestsByPhoneNumber
+);
+
 module.exports = requestsRouter;

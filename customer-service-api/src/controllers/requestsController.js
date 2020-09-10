@@ -23,6 +23,14 @@ function getCustomerRequests(req, res) {
   });
 }
 
+function getCustomerRequestsByPhoneNumber(req, res) {
+  console.log(req.body.customerPhone);
+  requests.findOne({customerPhone : req.body.customerPhone}, function (error, requests) {
+    if (error) throw error;
+    res.send(requests);
+  });
+}
+
 function createCustomerRequest(req, res) {
   req.body.createdDate = Date.now();
   requests.create(req.body, (err, request) => {
@@ -53,4 +61,5 @@ module.exports = {
   getCustomerRequests,
   createCustomerRequest,
   updateCustomerRequest,
+  getCustomerRequestsByPhoneNumber
 };
