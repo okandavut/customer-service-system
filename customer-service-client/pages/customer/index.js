@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
-import axios from 'axios';
+import React, { useState } from "react";
+import { Form, Button, Row, Col, Table } from "react-bootstrap";
+import axios from "axios";
 import getFormattedDate from "../../utils/dateFormatter";
 
 function Customer() {
@@ -17,24 +17,45 @@ function Customer() {
     console.log(res.data);
   }
   return (
-    <div className="container">
+    <div className="container-main">
       <center>
         <h3 className="title">Check Your Request Status</h3>
       </center>
       <Form>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="number" placeholder="Enter phone number" value={phoneNumber} onChange={e => setPhoneNumber(e.target.value)} />
-          <Form.Text className="text-muted">
-          </Form.Text>
+          <Form.Control
+            type="number"
+            placeholder="Enter phone number"
+            value={phoneNumber}
+            onChange={(e) => setPhoneNumber(e.target.value)}
+          />
+          <Form.Text className="text-muted"></Form.Text>
         </Form.Group>
 
-        <Button variant="primary" type="button" onClick={getRequestDetail.bind(this, phoneNumber)}
-          s>
-          Submit
-       </Button>
+        <Row className="justify-content-md-center">
+          <Col md="auto">
+            <Button
+              variant="primary"
+              size="lg"
+              type="button"
+              onClick={getRequestDetail.bind(this, phoneNumber)}
+              s
+            >
+              Submit
+            </Button>
+          </Col>
+        </Row>
+        <br />
       </Form>
-      <table className="service-list">
+      <Table
+        striped
+        bordered
+        hover
+        style={{
+          display: requests.description !== undefined ? "table" : "none",
+        }}
+      >
         <thead>
           <tr>
             <th>Description</th>
@@ -53,11 +74,19 @@ function Customer() {
             <td>{requests.note}</td>
             <td>{requests.status}</td>
             <td>{requests.customerPhone}</td>
-            <td>{requests.updatedDate !== undefined ? getFormattedDate(requests.createdDate) : ""}</td>
-            <td>{requests.updatedDate !== undefined ? getFormattedDate(requests.updatedDate) : ""}</td>
+            <td>
+              {requests.updatedDate !== undefined
+                ? getFormattedDate(requests.createdDate)
+                : ""}
+            </td>
+            <td>
+              {requests.updatedDate !== undefined
+                ? getFormattedDate(requests.updatedDate)
+                : ""}
+            </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </div>
   );
 }
