@@ -1,30 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center"> Customer Service System </h2> <br>
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Feedback](#feedback)
+- [Build Process](#build-process)
+- [Contributors](#contributors)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Customer Service system is project that allows the customer check service request status. Also service user can do operation on that request. It's a simple Customer Service System.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Customer Features    
+    - Customer can check request with phone number
+- Service User Features
+    - User can check all requests from Customer
+    - User can filter request with Request Status
+    - User can change status of Customer Reqeust
+    - User can add note when changing state of Customer Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies
 
-## Deploy on Vercel
+###### *Technologies & Libraries For Frontend*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [NextJS](https://nextjs.org/)
+- [React](https://en.reactjs.org/)
+- [Axios](https://github.com/axios/axios)
+- [React Bootstrap](https://react-bootstrap.github.io/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+###### *Technologies & Libraries For Backend*
+
+
+- [NodeJS](https://nodejs.org/en/)
+- [Body Parser](https://www.npmjs.com/package/body-parser)
+- [Express](https://www.npmjs.com/package/express)
+- [Helmet](https://www.npmjs.com/package/helmet)
+- [Mongoose](https://www.npmjs.com/package/mongoose)
+- [Morgan](https://www.npmjs.com/package/morgan)
+- [Cors](https://www.npmjs.com/package/cors)
+
+
+## Feedback
+
+Feel free to send me feedback on [Twitter](https://twitter.com/okandavutcom) or [file an issue](https://github.com/okandavut/customer-service-system/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
+
+If there's anything you'd like to chat about, please feel free send me dm on [Twitter](https://twitter.com/okandavutcom)!
+
+
+## Build Process
+
+
+- Will be added.
+
+
+
+## Contributors
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors).
+
+
