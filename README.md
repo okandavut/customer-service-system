@@ -59,8 +59,26 @@ If there's anything you'd like to chat about, please feel free send me dm on [Tw
 
 
 
-## Contributors
+## Contributors ✨
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors).
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+ 
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://allcontributors.org) specification.
+Contributions of any kind are welcome!
+
+## LICENSE
+
+[MIT](LICENSE)
 
 
