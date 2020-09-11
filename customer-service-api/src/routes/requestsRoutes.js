@@ -18,4 +18,12 @@ requestsRouter.post(
   requestsController.getCustomerRequestsByPhoneNumber
 );
 
+
+requestsRouter.post(
+  "/getCustomerRequestsById", 
+  requestsController.getCustomerRequestsById
+);
+
+
+
 module.exports = requestsRouter;

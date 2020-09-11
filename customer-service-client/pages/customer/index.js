@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { Form, Button, Row, Col, Table } from "react-bootstrap";
-import axios from "axios";
+import { Form, Button, Row, Col, Table } from "react-bootstrap";import axios from "axios";
 import getFormattedDate from "../../utils/dateFormatter";
 
 function Customer() {
-  const [requests, setRequests] = useState({});
+  const [requests, setRequests] = useState([]);
   const [phoneNumber, setPhoneNumber] = useState("");
 
   async function getRequestDetail(phoneNumber) {
@@ -53,7 +52,7 @@ function Customer() {
         bordered
         hover
         style={{
-          display: requests.description !== undefined ? "table" : "none",
+          display: requests.length !== 0 ? "table" : "none",
         }}
       >
         <thead>
@@ -68,23 +67,20 @@ function Customer() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>{requests.description}</td>
-            <td>{requests.createdCustomerName}</td>
-            <td>{requests.note}</td>
-            <td>{requests.status}</td>
-            <td>{requests.customerPhone}</td>
-            <td>
-              {requests.updatedDate !== undefined
-                ? getFormattedDate(requests.createdDate)
-                : ""}
-            </td>
-            <td>
-              {requests.updatedDate !== undefined
-                ? getFormattedDate(requests.updatedDate)
-                : ""}
-            </td>
-          </tr>
+          {requests.map(function (item, i) {
+            return [
+              <tr key={i}>
+                <td>{item.description}</td>
+                <td>{item.createdCustomerName}</td>
+                <td>{item.note}</td>
+                <td>{item.status}</td>
+                <td>{item.customerPhone}</td>
+                <td>{getFormattedDate(item.createdDate)}</td>
+                <td>{getFormattedDate(item.updatedDate)}</td>
+
+              </tr>,
+            ];
+          })}
         </tbody>
       </Table>
     </div>

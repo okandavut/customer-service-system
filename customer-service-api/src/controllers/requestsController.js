@@ -24,8 +24,15 @@ function getCustomerRequests(req, res) {
 }
 
 function getCustomerRequestsByPhoneNumber(req, res) {
-  console.log(req.body.customerPhone);
-  requests.findOne({customerPhone : req.body.customerPhone}, function (error, requests) {
+  requests.find({customerPhone : req.body.customerPhone}, function (error, requests) {
+    if (error) throw error;
+    res.send(requests);
+  });
+}
+
+function getCustomerRequestsById(req, res) {
+  var query = { _id: req.body.id };
+  requests.findOne(query, function (error, requests) {
     if (error) throw error;
     res.send(requests);
   });
@@ -61,5 +68,6 @@ module.exports = {
   getCustomerRequests,
   createCustomerRequest,
   updateCustomerRequest,
-  getCustomerRequestsByPhoneNumber
+  getCustomerRequestsByPhoneNumber,
+  getCustomerRequestsById
 };
