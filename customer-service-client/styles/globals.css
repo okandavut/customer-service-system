@@ -15,41 +15,10 @@ a {
   box-sizing: border-box;
 }
 
-table {
-  border: 1px solid #ccc;
-  border-collapse: collapse;
-  margin: 0;
-  padding: 0;
-  width: 80%;
-  margin:0 auto;
-  table-layout: fixed;
-}
-
-table caption {
-  font-size: 1.5em;
-  margin: 0.5em 0 0.75em;
-}
-
-table tr {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
-  padding: 0.35em;
-}
-
-table th,
-table td {
-  padding: 0.625em;
-  text-align: center;
-}
-
-table th {
-  font-size: 0.85em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
 .title{
   margin: 50px 0px 20px 0px ;
 }
-.container{
-  width:75% !important;
+.container-main {
+  width:70% !important;
+  margin:0 auto;
 }
