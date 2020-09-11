@@ -1,5 +1,3 @@
-<h2 align="center"> Customer Service System </h2> <br>
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -55,22 +53,30 @@ If there's anything you'd like to chat about, please feel free send me dm on [Tw
 
 ## Build Process
 
-
 - Will be added.
 
-
-
 ## Contributors
+
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-
+ 
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## LICENSE
+
+[MIT](LICENSE)
+=======
+
 
 
