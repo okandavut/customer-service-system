@@ -1,4 +1,4 @@
-<h2 align="center"> Customer Service System </h2> <br>
+<h2 align="center"> Customer Service System </h2> 
 
 ## Table of Contents
 
