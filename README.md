@@ -1,3 +1,5 @@
+<h2 align="center"> Customer Service System </h2> 
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -76,9 +78,8 @@ If there's anything you'd like to chat about, please feel free send me dm on [Tw
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## LICENSE
-
 [MIT](LICENSE)
-=======
+
 
 
 
