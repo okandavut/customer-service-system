@@ -66,7 +66,9 @@ If there's anything you'd like to chat about, please feel free send me dm on [Tw
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
- 
+  <tr>
+    <td align="center"><a href="https://medium.com/@okandavut"><img src="https://avatars3.githubusercontent.com/u/10600157?v=4" width="100px;" alt=""/><br /><sub><b>Okan DAVUT</b></sub></a><br /><a href="#infra-okandavut" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/okandavut/customer-service-system/commits?author=okandavut" title="Tests">⚠️</a> <a href="https://github.com/okandavut/customer-service-system/commits?author=okandavut" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
