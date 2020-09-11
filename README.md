@@ -62,6 +62,15 @@ If there's anything you'd like to chat about, please feel free send me dm on [Tw
 
 ## Contributors
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors).
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
