@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button, Row, Col, Table } from "react-bootstrap";
-import axios from "axios";
+import { Form, Button, Row, Col, Table } from "react-bootstrap";import axios from "axios";
 import getFormattedDate from "../../utils/dateFormatter";
 
 function Customer() {
@@ -53,7 +52,7 @@ function Customer() {
         bordered
         hover
         style={{
-          display: requests.description !== undefined ? "table" : "none",
+          display: requests.length !== 0 ? "table" : "none",
         }}
       >
         <thead>

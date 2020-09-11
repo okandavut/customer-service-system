@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Modal, Button, Form } from "react-bootstrap";
+import { Modal, Button, FormFile, Table, Form } from "react-bootstrap";
 import getFormattedDate from "../../utils/dateFormatter";
 const Service = (props) => {
   const [requests, setRequests] = useState([]);
@@ -45,7 +45,7 @@ const Service = (props) => {
           updatedDate: Date.now(),
         }
       );
-      
+
       setShow(false);
       setNote("");
       setRequestDetails({});
@@ -53,11 +53,15 @@ const Service = (props) => {
     }
   }
   return (
-    <div>
+    <div className="container-main">
       <center>
         <h1 className="title">Customer Requests</h1>
       </center>
-      <table className="service-list">
+      <Table
+        striped
+        bordered
+        hover
+       >
         <thead>
           <tr>
             <th>Description</th>
@@ -94,7 +98,7 @@ const Service = (props) => {
             ];
           })}
         </tbody>
-      </table>
+      </Table>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>
@@ -115,7 +119,7 @@ const Service = (props) => {
           </Button>
         </Modal.Footer>
       </Modal>
-    </div>
+    </div >
   );
 };
 
