@@ -1,4 +1,7 @@
 <h2 align="center"> Customer Service System </h2> 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
 
@@ -62,6 +65,18 @@ If there's anything you'd like to chat about, please feel free send me dm on [Tw
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://medium.com/@okandavut"><img src="https://avatars3.githubusercontent.com/u/10600157?v=4" width="100px;" alt=""/><br /><sub><b>Okan DAVUT</b></sub></a><br /><a href="#infra-okandavut" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/okandavut/customer-service-system/commits?author=okandavut" title="Tests">⚠️</a> <a href="https://github.com/okandavut/customer-service-system/commits?author=okandavut" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
