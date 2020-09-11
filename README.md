@@ -1,8 +1,8 @@
 ### Customer Service System
----
+
 #### Customer Service System UI
 ---
-##### Functionalities:
+*Functionalities:*
 
 - Customer Features    
     - Customer can check request with phone number
@@ -11,8 +11,8 @@
     - User can filter request with Request Status
     - User can change status of Customer Reqeust
     - User can add note when changing state of Customer Request
----
-##### Technologies & Libraries:
+
+*Technologies & Libraries:*
 
 - [NextJS](https://nextjs.org/)
 - [React](https://en.reactjs.org/)
@@ -21,13 +21,13 @@
 ---
 <br>
 
-### Customer Service System Api
+#### Customer Service System Api
 ---
-##### Functionalities:
+ *Functionalities*:
 
 - Will be added
----
-##### Technologies & Libraries:
+
+*Technologies & Libraries:*
 
 - [NodeJS](https://nodejs.org/en/)
 - [Body Parser](https://www.npmjs.com/package/body-parser)
@@ -37,10 +37,10 @@
 - [Morgan](https://www.npmjs.com/package/morgan)
 - [Cors](https://www.npmjs.com/package/cors)
 ---
-##### Author:
+*Author:*
 
 - [Okan DAVUT](https://github.com/okandavut)
 ---
-##### Contributors:
+*Contributors:*
 
 - [Okan DAVUT](https://github.com/okandavut)

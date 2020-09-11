@@ -1,8 +1,8 @@
 ### Customer Service System
----
+
 #### Customer Service System UI
 ---
-##### Functionalities:
+*Functionalities:*
 
 - Customer Features    
     - Customer can check request with phone number
@@ -11,8 +11,8 @@
     - User can filter request with Request Status
     - User can change status of Customer Reqeust
     - User can add note when changing state of Customer Request
----
-##### Technologies & Libraries:
+
+*Technologies & Libraries:*
 
 - [NextJS](https://nextjs.org/)
 - [React](https://en.reactjs.org/)

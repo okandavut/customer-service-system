@@ -1,10 +1,10 @@
-### Customer Service System Api
+#### Customer Service System Api
 ---
-##### Functionalities:
+ *Functionalities*:
 
 - Will be added
----
-##### Technologies & Libraries:
+
+*Technologies & Libraries:*
 
 - [NodeJS](https://nodejs.org/en/)
 - [Body Parser](https://www.npmjs.com/package/body-parser)
@@ -13,3 +13,4 @@
 - [Mongoose](https://www.npmjs.com/package/mongoose)
 - [Morgan](https://www.npmjs.com/package/morgan)
 - [Cors](https://www.npmjs.com/package/cors)
+---
